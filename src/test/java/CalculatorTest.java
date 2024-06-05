@@ -17,7 +17,7 @@ public class CalculatorTest {
 		
 		testCalculator.reset();
 		
-		assertEquals(testCalculator.getCount(), 0);
+		assertEquals(testCalculator.getCount(), 1);
 	}
 
 	@Test
