@@ -6,15 +6,15 @@ public class Driver {
 		
 		Calculator calculator = new Calculator();
 		
-		System.out.println("Current count:" + calculator.getCount());
+		System.out.println("Result:" + calculator.getCount());
 		
 		calculator.increment();
 		
-		System.out.println("Current count:" + calculator.getCount());
+		System.out.println("Result:" + calculator.getCount());
 		
 		calculator.decrement();
 		
-		System.out.println("Current count:" + calculator.getCount());
+		System.out.println("Result:" + calculator.getCount());
 		
 	}
 
